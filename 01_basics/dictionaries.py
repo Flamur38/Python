@@ -5,8 +5,9 @@ event = {
         'action': 'Accepted password for flamy',
         }
 
-print(event['user'])            # accessing value by its key name in [] instead of index number.
-print(event['src_ip'])
+# accessing value by its key name in [] instead of index number.
+print(event['user'])   # flamy     
+print(event['src_ip']) # 192.168.1.45
 
 print()
 
