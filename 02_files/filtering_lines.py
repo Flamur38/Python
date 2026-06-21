@@ -5,4 +5,5 @@ with open('sample.log', 'r') as f:
         if 'failed' in line.lower():
             count += 1
             print(line.strip())
+print()
 print('Total Failed logins: {}'.format(count))
