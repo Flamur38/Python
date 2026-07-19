@@ -13,3 +13,9 @@ ip_three = check_ip('192.168.1.55')
 print('{}'.format(ip_one))
 print('{}'.format(ip_two))
 print('{}'.format(ip_three))
+
+# Output:
+# suspicious                                                                                                      
+# clean                                                                                                           
+# clean                                                                                                           
+

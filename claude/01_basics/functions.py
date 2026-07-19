@@ -7,6 +7,13 @@ def check_ip(ip):
         print('clean message {}'.format(ip))
 
 
+# Calling the function "check_ip"
 check_ip('10.0.0.9')
 check_ip('192.168.1.45')
 check_ip('192.168.1.55')
+
+# Output:
+# suspicious message 10.0.0.9                                                                                     
+# clean message 192.168.1.45                                                                                      
+# clean message 192.168.1.55
+

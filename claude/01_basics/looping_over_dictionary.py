@@ -12,3 +12,7 @@ for key, value in event.items():    # .items() gives both key and value
     else:
         print('{}: {}'.format(key, value))
 
+# Output:
+# user: flamy                                                                                                     
+# src_ip: 192.168.1.45                                                                                            
+# Event action: Accepted password for flamy
