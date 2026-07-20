@@ -13,6 +13,9 @@ print(count)
 
             
 
+# Output: 
+# {'root': 2, 'john': 1, 'admin': 1}                                                                              
+
 
             
     

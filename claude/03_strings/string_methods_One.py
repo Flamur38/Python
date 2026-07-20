@@ -5,3 +5,8 @@ with open('sample.log', 'r') as f:
             parts = line.split()[5]
             print(line.replace(parts, 'REDACTED'))
 
+# Output:
+# Failed login for root from REDACTED                                                                             
+# Failed login for root from REDACTED                                                                             
+# Failed login for admin from REDACTED                                                                            
+

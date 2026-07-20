@@ -19,3 +19,7 @@ result_1 = counting_failed_logins('sample_1.log')
 # Print the results
 print(result)
 print(result_1)
+
+# Output:
+# {'root': 2, 'john': 1, 'admin': 1}                                                                              
+# {'root': 2, 'john': 1, 'admin': 5}
