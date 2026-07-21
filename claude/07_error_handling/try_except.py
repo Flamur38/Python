@@ -16,5 +16,11 @@ for lines in logs:
         print('No IP on this line')
 
 
+# Output:
+# 10.0.0.9                                                                                                        
+# No IP on this line                                                                                              
+# 10.0.0.6                                                                                                        
+# 10.0.0.5                                                                                                        
+# No IP on this line
 
 
