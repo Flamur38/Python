@@ -7,6 +7,7 @@ ip = '10.0.0.9'
 port = 22
 print('ALERT: {} failed login from {} on port {}'.format(user, ip, port))
 
+# ---
 
 # A2. Flag suspicious ports.
 # Loop over the list below. For each port, print <port> is a remote-access port only if it's 22, 23, or 3389.
@@ -14,6 +15,7 @@ ports = [80, 22, 443, 3389, 8080, 23]
 for port in ports:
     if port == 22 or port == 23 or port == 3389:
         print('{} is a remote-access port'.format(port))
+# ---
 
 # Part B — Data wrangling
 # B1. Count failed logins per IP (dictionary).
@@ -53,7 +55,7 @@ print(', '.join(parts))
 # print('{} appears {} times'.format(ip, num), end=', ')
 # Prints each result immediately without creating a list
 
-
+# ---
 
 # B2. Pull the username out of a field.
 # From this line, extract just the username (admin) using either .split() or .find() + slicing — your call.
@@ -72,7 +74,7 @@ user = line.split()[1]            # Get "user=admin"
 name = user.split('=')[1]         # Get "admin"
 print(name)
 
-
+#---
 
 # Part C — Mini capstone (combine everything)
 # First, save this as auth.log in your working directory:
@@ -107,17 +109,4 @@ with open('auth.log', 'r') as f:
 with open('failed_report.txt', 'w') as out:
     for ip, count in counts.items():
         out.write('{}: {}\n'.format(ip, count))
-
-
-for line in lines:
-    line = line.split(',')
-    print(line.strip())
-
-
-
-
-
-
-
-
 
