@@ -2,8 +2,8 @@ from re import findall
 import re
 
 
+# some comment here
 print('Drill 1: Lists + for loop + if/or(basics)')
-# Lists + for loop + if/or(basics)
 ports = [22, 80, 443, 23, 3389, 21, 8080]
 for port in ports:
     if port == 23 or port == 21 or port == 3389:
@@ -92,4 +92,7 @@ with open('auth.log', 'r') as f:
             except AttributeError:
                 print('no ip')
 
-    
+def hello():
+    pass
+
+          

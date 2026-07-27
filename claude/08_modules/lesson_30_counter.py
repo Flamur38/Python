@@ -1,4 +1,3 @@
-
 # auth_ts.log
 # 2026-07-21 14:32:01 Failed password for admin from 10.0.0.9
 # 2026-07-21 14:32:03 Failed password for root from 10.0.0.9
@@ -12,7 +11,7 @@
 from collections import Counter
 import re
 
-filename = 'auth_ts.log'
+filename = '/home/flamy/projects/Python/claude/08_modules/auth_ts.log'
 counts = Counter()
 
 try:

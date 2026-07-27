@@ -5,6 +5,8 @@ path = '/home/flamy/logs/'
 # Get a list of all files and directories inside 'path'
 logs = os.listdir(path)
 print(logs)
+# ['syslog.log', 'report.csv', 'auth.log', 'host1', 'kern.log', 'apache2', 'host2', 'notes.txt', 'nginx']
+
 
 # Counter for the number of .log files found
 total = 0

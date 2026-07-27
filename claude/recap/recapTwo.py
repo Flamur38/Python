@@ -6,7 +6,7 @@
 # 10.0.0.5
 
 
-filename = 'blocklist.txt'
+filename = '/home/flamy/projects/Python/claude/recap/blocklist.txt.bak'
 ips = []
 
 try:
@@ -23,3 +23,7 @@ try:
 except FileNotFoundError:
     print('Error: {} not found.'.format(filename))
 
+
+# Output:
+# Loaded 5 IPs                                                                                                           
+# ['10.0.0.9', '10.0.0.8', '10.0.0.7', '10.0.0.6', '10.0.0.5']
