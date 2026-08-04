@@ -48,3 +48,25 @@ print('\nAlerts:')
 for ip, attempts in counts.items():
     if attempts >= 3:
         print('ALERT: {} - {} failed attempts'.format(ip, attempts))
+
+# Output:
+# ===== Report =====
+#
+# Total failed attempts: 5
+#
+# Top attackers:
+# 10.0.0.9 -> 3
+# 10.0.0.7 -> 1
+# 10.0.0.5 -> 1
+#
+# First attempt:
+# 2026-07-21 14:32:01
+#
+# Last attempt:
+# 2026-07-21 16:22:03
+#
+# Duration: 6602.0 seconds
+#
+# Alerts:
+# ALERT: 10.0.0.9 - 3 failed attempts
+

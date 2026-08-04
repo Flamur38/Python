@@ -22,3 +22,13 @@ print(f'Last attempt:\n{last_attempt}\n')
 
 total_seconds = (max(timestamps) - min(timestamps)).total_seconds()
 print('Duration:\n{}'.format(total_seconds))
+
+# Output:
+# First attempt:                                                                                                         
+# 2026-07-21 14:32:01                                                                                                    
+#
+# Last attempt:                                                                                                          
+# 2026-07-21 15:01:12                                                                                                    
+#
+# Duration:                                                                                                              
+# 1751.0

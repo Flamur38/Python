@@ -15,9 +15,9 @@ for ip, num in counts.items():
 # 10.0.0.9 -> 3                                                                                                          
 # 10.0.0.7 -> 1                                                                                                          
 # 10.0.0.5 -> 1
-# ---
 
-# Version two:
+
+# VERSION TWO:
 print('---') 
 counts = Counter()              # Option TWO  
 
@@ -37,7 +37,6 @@ for ip, num in counts.items():
     
 top_ip, attempts = counts.most_common(1)[0]
 print('Most common IP: {} -> {}'.format(top_ip, attempts))
-
 # Output:
 # 10.0.0.9 -> 2                                                                                                          
 # 10.0.0.7 -> 1                                                                                                          

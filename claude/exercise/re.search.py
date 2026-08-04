@@ -1,6 +1,6 @@
 import re
 
-# Extract IPs
+# EXTRACT IPS
 line = '2026-07-21 14:32:01 Failed password for admin from 10.0.0.9'
 match = re.search(r'\d+\.\d+\.\d+\.\d+', line)
 
@@ -10,7 +10,7 @@ try:
 except AttributeError:
     pass
 
-# Filter logins + Extract IPs
+# FILTER LOGINS + EXTRACT IPS
 logs = [
     "2026-07-21 14:32:01 Failed password for admin from 10.0.0.9",
     "2026-07-21 14:32:03 Failed password for root from 10.0.0.9",
@@ -32,4 +32,6 @@ for line in logs:
         failed_ips.append(ip)
 print(failed_ips)
             
-
+# Output:
+# 10.0.0.9                                                                                                               
+# ['10.0.0.9', '10.0.0.9', '10.0.0.7']
