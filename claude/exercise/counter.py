@@ -19,7 +19,7 @@ for ip, num in counts.items():
 
 # Version two:
 print('---') 
-counts = Counter()              # Option TWO 
+counts = Counter()              # Option TWO  
 
 logs = [
     'Failed password for 10.0.0.9',
